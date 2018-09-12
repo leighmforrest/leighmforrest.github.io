@@ -1,0 +1,34 @@
+---
+layout: base
+title: Gallery
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            {% for city in site.data.gallery %}
+            <div class="row">
+                <div class="col-md-12" id="{{ city.city }}">
+                    <h2 class="text-capitalize">{{ city.city }}</h2>
+                    <div class="card-deck">
+                        <div class="card gallery-card">
+                            <img class="card-img-top" src="{{ city.image1 }}" alt="{{ city.caption1 }}">
+                            <div class="card-body">
+                            <p class="card-text">{{ city.caption1 }}</p>
+                            </div>
+                        </div>
+                        <div class="card gallery-card">
+                            <img class="card-img-top" src="{{ city.image2 }}" alt="{{ city.caption2 }}">
+                            <div class="card-body">
+                            <p class="card-text">{{ city.caption2}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-3">
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>

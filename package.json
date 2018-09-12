@@ -1,0 +1,16 @@
+{
+  "name": "cs50",
+  "version": "1.0.0",
+  "description": "Static website",
+  "main": "index.js",
+  "scripts": {
+      "build-css": "node-sass --include-path scss scss/main.scss   css/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
+}
