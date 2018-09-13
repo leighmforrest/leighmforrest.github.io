@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', Sans-Serif;
+  font-size: 14px;
+  color: #4E5E55; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Abril Fatface", Cursive;
+  font-size: 3rem; }
+
+h2 {
+  margin-left: .8rem; }
+
+/* NAVBAR STYLES */
+.navbar {
+  background-color: red; }
+  .navbar > .navbar-brand {
+    font-family: "Abril Fatface", Cursive;
+    font-size: 2.5rem;
+    color: #4E5E55; }
+
+/* HERO STYLES */
+.hero-image {
+  background-image: url("../images/PARH.jpg");
+  width: 100%;
+  height: 50%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%; }
+  .hero-text > p {
+    font-size: 1rem;
+    color: #FFF;
+    font-family: "Abril Fatface", Cursive;
+    transform: translate(-50%, -50%); }
+
+/* GALLERY STYLES */
+.gallery-card {
+  width: 100%;
+  border-radius: 15px; }
+  .gallery-card > img {
+    border-radius: 15px; }
+
+.card-deck:last-child {
+  margin: 10px; }
+
+/* NOUNS STYLES */
+.table {
+  margin-top: 15px;
+  text-align: center; }
+
+.noun {
+  width: 100px; }
+
+/* SIDEBAR STYLES */
+ul.list-group {
+  margin-top: 15px; }
+
+/* FOOTER STYLES */
+footer {
+  width: 100%;
+  height: 8rem;
+  background-color: #EC5E55;
+  margin-top: 1rem; }
+  footer ul {
+    text-align: center; }
+  footer li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 1.25rem .75rem 0 0;
+    text-align: center; }
+    footer li a {
+      color: #4E5E55; }
+    footer li .copyright {
+      margin-left: 6rem; }
+
+/* MEDIA QUERY */
+@media screen and (min-width: 700px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface", Cursive;
+    font-size: 4rem; }
+  h2 {
+    margin-left: 1.5rem; }
+  .hero-image {
+    height: 75%; }
+  .hero-text > p {
+    font-size: 2.125rem; } }
