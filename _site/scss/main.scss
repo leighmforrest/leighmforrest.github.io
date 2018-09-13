@@ -5,6 +5,7 @@ $FONT_COLOR: #4E5E55;
 body, html {
     height: 100%;
     width: 100%;
+    margin: 0;
     font-family: 'Poppins', Sans-Serif;
     font-size: 14px;
     color: $FONT_COLOR;
@@ -53,6 +54,12 @@ h2 {
     }
 }
 
+/* CONTAINER STYLES */
+.container {
+    min-height: 600px;
+    margin-bottom: 2rem;
+}
+
 /* GALLERY STYLES */
 .gallery-card {
     width: 100%;
@@ -81,28 +88,36 @@ ul.list-group {
 }
 
 /* FOOTER STYLES */
-footer {
+.footer {
+    // position: fixed;
+    bottom: 0;
     width: 100%;
-    height: 8rem;
     background-color: $NAVBAR;
-    margin-top: 1rem;
-    // text-align: center;
+    text-align: center;
+    height: 6rem;
+    .about-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
 
-    ul {
+        ul {
         text-align: center;
     }
     li {
         display: inline-block;
         text-decoration: none;
-        margin: 1.25rem .75rem 0 0;
+        margin-top: 1.25rem;
         text-align: center;
         a {
             color: $FONT_COLOR;
         }
-        .copyright {
-            margin-left: 6rem;
-        }
     }
+    .copyright {
+            text-align: center;
+            font-size: .6rem;
+            padding-left: 20px;
+        }
 }
 
 /* MEDIA QUERY */

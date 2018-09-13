@@ -4,7 +4,7 @@
   "description": "Static website",
   "main": "index.js",
   "scripts": {
-      "build-css": "node-sass --include-path scss scss/main.scss   css/styles.css --watch"
+    "build-css": "node-sass --include-path scss scss/main.scss   css/styles.css --watch"
   },
   "author": "",
   "license": "ISC",
