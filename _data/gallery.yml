@@ -1,30 +1,30 @@
 - city: amsterdam
-  image1: images/gallery/AMS1.jpg
-  image2: images/gallery/AMS2.jpg
+  image1: /images/gallery/AMS1.jpg
+  image2: /images/gallery/AMS2.jpg
   caption1: Dam Square. Koninklijk Paleis in background
   caption2: Iamsterdam sculpture with Rijksmuseum
 - city: munchen
-  image1: images/gallery/MUN1.jpg
-  image2: images/gallery/MUN2.jpg
+  image1: /images/gallery/MUN1.jpg
+  image2: /images/gallery/MUN2.jpg
   caption1: Feldherrnhalle on the Odeonsplatz
   caption2: Juliet Capulet statue
 - city: paris
-  image1: images/gallery/PAR1.jpg
-  image2: images/gallery/PAR2.jpg
+  image1: /images/gallery/PAR1.jpg
+  image2: /images/gallery/PAR2.jpg
   caption1: Arc de Triomphe
   caption2: Tour Eiffel
 - city: london
-  image1: images/gallery/LON1.jpg
-  image2: images/gallery/LON2.jpg
+  image1: /images/gallery/LON1.jpg
+  image2: /images/gallery/LON2.jpg
   caption1: Interior of the original Dog and Bull in the London Borough of Croydon.
   caption2: Westminster Abbey
 - city: philadelphia
-  image1: images/gallery/PHL1.jpg
-  image2: images/gallery/PHL2.jpg
+  image1: /images/gallery/PHL1.jpg
+  image2: /images/gallery/PHL2.jpg
   caption1: Joey Giardello statue on East Passyunk Avenue. Shot on medium format analog film using a Hasselblad 500C/M.
   caption2: Former power station next to Penn Treaty Park.
 - city: wildwood
-  image1: images/gallery/WIL1.jpg
-  image2: images/gallery/WIL2.jpg
+  image1: /images/gallery/WIL1.jpg
+  image2: /images/gallery/WIL2.jpg
   caption1: Kelly's Cafe (4400 Atlantic Ave.) at night.
   caption2: Cornucopia of Wildwood signage on Rio Grande Ave.
